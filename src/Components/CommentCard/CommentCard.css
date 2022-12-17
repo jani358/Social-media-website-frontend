@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700');
+ *{
+   border-radius: 0px !important;
+   border: 0px !important;
+ }
+
+
+.commentUser {
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.507);
+}
+
+.commentUser > a {
+  display: flex;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  align-self: flex-start;
+  transition: all 0.5s;
+}
+.commentUser img {
+  height: 3vmax;
+  width: 3vmax;
+  margin: 1vmax;
+  border-radius: 100%;
+  border: 3px solid rgb(255, 201, 201);
+}
+
+.commentUser > a:hover {
+  transform: translateY(-10px);
+}
+
+.commentUser > button {
+  color: red;
+}
+
+
+
+ body{
+   margin: 0px;
+   font-family: "Poppins", sans-serif !important;
+   background: #FED18C !important;
+ }
+
+ .height-vh{
+   height: 100vh;
+ }
+
+#comment-container{
+  padding: 40px !important;
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.date{
+  font-size: 12px;
+}
+
+.comment-text{
+  font-size: 14px;
+  line-height: 1.2rem;
+}
+
+.fs-14{
+  font-size: 14px;
+}
+
+.name{
+  color: #FE654F;
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+.cursor:hover{
+  color: rgb(5, 5, 31);
+}

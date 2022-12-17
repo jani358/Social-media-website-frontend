@@ -1,0 +1,109 @@
+@import url("http://fonts.googleapis.com/css?family=Homemade+Apple" );
+
+
+
+.register {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #413f33, #4e399a);
+  display:flex;
+  border-radius: 50%;
+  background-image: url(C:\Users\TUF\Desktop\anony\app\frontend\images\an.jpg);
+  background-size: cover;
+
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 3vmax;
+  box-sizing: border-box;
+}
+
+.registerForm {
+  background-color: rgba(255, 255, 255, 0.21);
+  width: 40%;
+  border-radius: 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.registerInputs {
+  box-sizing: border-box;
+  padding: 1vmax 2vmax;
+  width: 80%;
+  border-radius: 40px;
+  font-weight: bold;
+
+  border: 1px solid rgb(130, 47, 47);
+  margin: 2vmax;
+  font: 100 1.2rem "Roboto", sans-serif;
+  outline: none;
+}
+
+.registerForm > input[type="file"] {
+  border-radius: 30px;
+  font-weight: bold;
+  margin: 2vmax;
+  font-size: 12pt;
+}
+
+.registerForm > input[type="file"]::-webkit-file-upload-button {
+  background-color: rgb(80, 198, 228);
+  color: rgb(9, 5, 5);
+  width: 100%;
+  font-weight: bold;
+  padding: 1vmax;
+  border-radius: 30px;
+  border: none;
+  font: 100 1.2rem "Roboto", sans-serif;
+}
+
+.registerForm > a {
+  align-self: flex-end;
+  text-decoration: none;
+  font-weight: 300;
+
+  font-style: inherit;
+  color: black;
+  background-color: rgb(80, 198, 228);
+  margin: 2vmax;
+  font-weight: 3;
+
+}
+
+.registerForm > Button{
+  color: rgb(21, 20, 20);
+  font-size: 15pt;
+  font-style: bold;
+  background-color: rgb(112, 112, 211);
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .registerForm {
+    width: 100%;
+  }
+
+  .registerForm > input {
+    padding: 4vw 8vw;
+    margin: 2vmax;
+    font: 100 1.2rem "Roboto", sans-serif;
+    margin: 4vw;
+  }
+
+  .registerForm > input[type="file"] {
+    width: 100%;
+  }
+
+  .registerForm > input[type="file"]::-webkit-file-upload-button {
+    width: 70%;
+  }
+
+  .registerForm > a {
+    align-self: center;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.342);
+  }
+}
